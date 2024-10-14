@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primer Página</title>
+  </head>
+  <body>
+    <header>
+      <h2>Ing. en Sistemas Computacionales.</h2>
+    </header>
+
+    <nav>
+      <a href="nosotros.html">Inicio</a>
+      <a href="#">Sobre Mi</a>
+      <a href="#">Clientes</a>
+      <a href="#">Contacto</a>
+    </nav>
+    <!--Esta manera de hacer enlaces es cuando el código del menú es multinivel-->
+    <!--     <ul>
+        <li></li>
+    </ul> -->
+
+    <!--Si el menú es un solo nivel o un solo vinculo se usa nav-->
+    <img src="./img/flash.jpg" />
+    <section>
+      <h1>Mercedes AC</h1>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="icon icon-tabler icon-tabler-map-pin"
+        width="44"
+        height="44"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="#2c3e50"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+        <path
+          d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"
+        />
+      </svg>
+      <p>Ciudad de México</p>
+
+      <a href="#">Contactar</a>
+    </section>
+
+    <main>
+      <h2>Mis Servicios</h2>
+      <section>
+        <h3>Desarrollo Web</h3>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut pariatur
+          vero, odit placeat magni consequatur qui exercitationem vel quis nemo
+          in rem laudantium at consequuntur, adipisci similique sed mollitia
+          delectus?
+        </p>
+      </section>
+      <section>
+        <h3>Aplicaciones Moviles</h3>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut pariatur
+          vero, odit placeat magni consequatur qui exercitationem vel quis nemo
+          in rem laudantium at consequuntur, adipisci similique sed mollitia
+          delectus?
+        </p>
+      </section>
+      <section>
+        <h3>Python Dev</h3>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut pariatur
+          vero, odit placeat magni consequatur qui exercitationem vel quis nemo
+          in rem laudantium at consequuntur, adipisci similique sed mollitia
+          delectus?
+        </p>
+      </section>
+    </main>
+    <!--Formulario para el contacto-->
+    <section>
+      <h2>Contacto</h2>
+      <form>
+        <fieldset>
+          <legend>Para contactarme llena todos los campos.</legend>
+          <!--El div se usa para agrupar siempre y cuando no se cumplan reglas en section, main, etc.-->
+          <div>
+            <label>Nombre</label>
+            <!--Si se pone el type tel, abre el teclado para ingresar un telefono, si se pone email agrega el @, si se agrega number abrirá el teclado con numeros.-->
+            <input type="text" placeholder="Nombre" />
+          </div>
+          <div>
+            <label>Teléfono</label>
+            <input type="tel" placeholder="Teléfono" />
+          </div>
+          <div>
+            <label>Correo</label>
+            <input type="email" placeholder="Correo" />
+          </div>
+          <div>
+            <label>NOTA</label>
+            <textarea></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Enviar" />
+          </div>
+        </fieldset>
+      </form>
+    </section>
+
+    <footer>
+      <p>Todos los derechos reservados, Mercedes AC</p>
+    </footer>
+  </body>
+</html>
